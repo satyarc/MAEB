@@ -1,0 +1,18 @@
+<div class="user__layout">
+    <div class="sidebar__options profile__options pt-3">
+
+        <div class="profile__links mt-0">
+            <a class="profile__link__option" routerLink="/user/support-help/ticket"
+                routerLinkActive="profile__link__option__active"> <span class="option__icon">
+                    <img src="../../../assets/images/tickets.svg" alt="">
+                </span>Tickets</a>
+            <a class="profile__link__option" routerLink="/user/support-help/contact-us"
+                routerLinkActive="profile__link__option__active"> <span class="option__icon">
+                    <img src="../../../assets/images/contactus.svg" alt="">
+                </span> Contact US</a>
+        </div>
+    </div>
+    <div class="main__content">
+        <router-outlet></router-outlet>
+    </div>
+</div>

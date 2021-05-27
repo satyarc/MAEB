@@ -1,0 +1,100 @@
+.auth__section {
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    font-size: 15px;
+    flex-wrap: wrap;
+    margin-top: 94px;
+
+    .columns {
+        flex: 1;
+    }
+    .columns:nth-of-type(even) {
+        flex: 2;
+        padding: 35px 30px;
+        overflow: auto;
+        height: calc(100vh - 94px);
+        // max-height: 100vh;
+    }
+
+    .section__img {
+        // min-width: 500px;
+        // max-width: 500px;
+        height: calc(100vh - 94px);
+        width: 100%;
+        object-fit: cover;
+        overflow: hidden;
+        img {
+            object-fit: cover;
+            overflow: hidden;
+            height: 100vh;
+            width: 100%;
+        }
+    }
+
+    .section__form {
+        min-width: 500px;
+
+        .enter__otp__text {
+            font-size: 14px;
+            margin: 63px auto 36px;
+            width: 196px;
+            font-weight: 500;
+            color: #172E60;
+        }
+
+        .entre_otp_here {
+            border-radius: 6px;
+            border: 1px solid #000;
+            padding: 4px 30px;
+            font-size: 16px;
+            text-align: center;
+            letter-spacing: 20px;
+        }
+
+        .resent__otp {
+            width: 150px;
+            font-size: 12px;
+            text-align: center;
+            display: block;
+            margin: 44px auto 0;
+           
+            font-weight: 500;
+            a{
+            text-decoration: underline;
+            color: #2979ff;
+            }
+        }
+
+        .login,
+        .cancel {
+            text-transform: uppercase;
+            border-radius: 8px;
+            width: 100px;
+            margin: 63px 10px 10px;
+            border: 0px;
+            padding: 5px;
+            font-size: 14px;
+        }
+
+        .cancel {
+            background-color: #edeef2;
+            color: #959595;
+        }
+
+        .login {
+            background-color: #2979ff;
+            color: #fff;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .auth__section {
+        flex-direction: row;
+        .section__img {
+            min-width: 500px;
+            max-width: 500px;
+        }
+    }
+}

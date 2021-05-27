@@ -1,0 +1,48 @@
+
+.footer {
+    background: #000;
+    color: #fff;
+    padding: 3rem 2rem;
+
+    .footer__logo {
+        width: 254px;
+        height: 33px;
+        margin-bottom: 2rem;
+    }
+
+    .footer__link__headings {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 1rem;
+    }
+
+    .footer__links {
+        color: #fff;
+        font-size: 12px;
+        text-decoration: none;
+        opacity: 0.6;
+        padding: 5px 0px 0 0;
+        &:last-child {
+            margin-bottom: 2rem;
+        }
+    }
+
+    .download__app {
+        // width: 140px;
+        height: 44px;
+        display: flex;
+        align-items: center;
+        img {
+            margin: 0 10px;
+        }
+    }
+
+    .social__media__follow {
+        img {
+            width: 27px;
+            height: 27px;
+            margin: 0 6px;
+        }
+    }
+}

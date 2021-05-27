@@ -1,0 +1,41 @@
+.claims__details__files {
+    background: #fff;
+    border-radius: 20px;
+    margin: 0 20px;
+    box-shadow: 0px 10px 20px #c4c8d066;
+    overflow: hidden;
+
+    .new__claims {
+        background: #edeef2;
+        padding: 20px 21px 100px;
+
+        .title {
+            color: #959595;
+            font-size: 16px;
+            font-weight: 500;
+            margin: 28px 0;
+        }
+
+        .claim__title,
+        .value,
+        .active,
+        .inactive {
+           margin-top: 18px;
+            font-size: 14px;
+        }
+        .claim__title {
+            color: #959595;
+        }
+
+        .value{
+            font-weight: 500;
+        }
+
+        .active{
+            color: #60D34C
+        }
+        .inactive{
+            color: red
+        }
+    }
+}

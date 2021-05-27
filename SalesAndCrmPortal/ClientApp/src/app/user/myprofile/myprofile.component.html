@@ -1,0 +1,48 @@
+<div class="user__layout">
+    <div class="sidebar__options profile__options">
+        <div class="text-center">
+            <img class="profile__pic" src="https://source.unsplash.com/user/erondu/">
+            <div>
+                <p class="user__name">Mr. Pavan Kumar</p>
+                <p class="email f-italic">lorem@gmail.com</p>
+            </div>
+        </div>
+
+        <div class="profile__links">
+            <a class="profile__link__option" routerLink="/user/profile/family-members"
+                routerLinkActive="profile__link__option__active"> <span class="option__icon">
+                    <img src="../../../assets/images/familyMembers.svg" alt="">
+                </span>My Family Members</a>
+            <a class="profile__link__option" routerLink="/user/profile/all-family-members"
+                routerLinkActive="profile__link__option__active"> <span class="option__icon">
+                    <img src="../../../assets/images/all_members.svg" alt="">
+                </span> All Members</a>
+            <a class="profile__link__option" routerLink="/user/profile/payments"
+                routerLinkActive="profile__link__option__active"> <span class="option__icon">
+                    <img src="../../../assets/images/payments.svg" alt="">
+                </span> Payments</a>
+            <a class="profile__link__option" routerLink="/user/profile/quotes"
+                routerLinkActive="profile__link__option__active"> <span class="option__icon">
+                    <img src="../../../assets/images/all_quotes.svg" alt="">
+                </span> All Quotes</a>
+            <a class="profile__link__option" routerLink="/user/profile/health-card"
+                routerLinkActive="profile__link__option__active"> <span class="option__icon">
+                    <img src="../../../assets/images/health_card.svg" alt="">
+                </span> Health Card</a>
+            <a class="profile__link__option" routerLink="/user/profile/change-password"
+                routerLinkActive="profile__link__option__active"> <span class="option__icon">
+                    <img src="../../../assets/images/change_password.svg" alt="">
+                </span> Change Password</a>
+            <a class="profile__link__option" routerLink="/user/profile/edit-profile"
+                routerLinkActive="profile__link__option__active"> <span class="option__icon">
+                    <img src="../../../assets/images/edit_ profile.svg" alt="">
+                </span> Edit Profile</a>
+
+
+
+        </div>
+    </div>
+    <div class="main__content">
+        <router-outlet></router-outlet>
+    </div>
+</div>

@@ -1,0 +1,67 @@
+.offers__card {
+    height: 321px;
+    background: #fff;
+    margin: 20px auto;
+    box-shadow: 2px 2px 18px #00000029;
+    border-radius: 16px;
+    position: relative;
+    padding: 28px 38px 30px;
+    text-align: center;
+
+    .get,
+    .grab__now {
+        padding: 9px 22px;
+        color: #fff;
+        width: 151px;
+        height: 31px;
+        display: block;
+        width: 100%;
+        text-align: center;
+        height: 36px;
+     
+    }
+
+    .grab__now {
+        border-radius: 6px;
+        margin-top:1rem;
+      
+        bottom: 2rem;
+       
+    }
+    .get {
+        // padding: 9px 22px;
+        border-radius: 17px;
+        // color: #fff;
+        // width: 151px;
+    }
+    .conditions{
+        position: relative;
+        text-align: center;
+    }
+
+    .gift{
+        position: absolute;
+        top: 25%;
+        display: block;
+        left: 25%;
+        // width: 100%;
+    }
+
+    .dots{
+        position: absolute;
+        top: 0;
+    }
+    .member__type{
+        position: absolute;
+        top: 8px;
+        text-align: center;
+        display: block;
+        width: 100%;
+    }
+    .conditions__apply{
+        position: absolute;
+        bottom: 3px;
+        text-align: center;
+        left: 14%;
+    }
+}

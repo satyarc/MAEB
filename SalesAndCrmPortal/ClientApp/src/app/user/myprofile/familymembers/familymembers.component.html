@@ -1,0 +1,40 @@
+<div class="d-flex  justify-content-between">
+  <span class="tbl__heading">My Family Members</span>
+  <button class="tbl__add_btn" routerLink="/user/profile/family-members/add-family-members">ADD MEMBER</button>
+</div>
+<div class="table-responsive">
+  <table class="table table-borderless table-hover">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>LastName</th>
+        <th>FirstName</th>
+        <th>MemberId</th>
+        <th>Date of Birth</th>
+        <th>Relation</th>
+        <th>City</th>
+        <th>Country</th>
+        <th>ZipCode</th>
+        <th>Address</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let member of familyMembers">
+        <td>{{ member.FamilyMemberId }}</td>
+        <td>{{ member.Lastname }}</td>
+        <td>{{ member.Firstname }}</td>
+        <td>{{ member.MemberID }}</td>
+        <td>{{ member.DateOfBirth }}</td>
+        <td>{{ member.Relation }}</td>
+        <td>{{ member.CityCode }}</td>
+        <td>{{ member.CountryCode }}</td>
+        <td>{{ member.ZipCode }}</td>
+        <td>{{ member.Address }}</td>
+        <td>{{ member.status }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+

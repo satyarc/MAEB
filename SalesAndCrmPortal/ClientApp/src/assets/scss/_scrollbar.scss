@@ -1,0 +1,25 @@
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 7px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgba(117, 117, 117, 0.1);
+    -webkit-box-shadow: inset 10px 11px 6px rgba(117, 117, 117, 1);
+    -moz-box-shadow: inset 10px 11px 6px rgba(117, 117, 117, 1);
+    box-shadow: inset 10px 11px 6px rgba(117, 117, 117, 1);
+  }
+  
+  ::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(0, 0, 0, 0.5);
+  }

@@ -1,0 +1,92 @@
+.auth__section {
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    font-size: 15px;
+    flex-wrap: wrap;
+    margin-top: 94px;
+
+    .columns {
+        flex: 1;
+    }
+    .columns:nth-of-type(even) {
+        flex: 2;
+        padding: 35px 30px;
+        overflow: auto;
+        height: calc(100vh - 94px);
+        // max-height: 100vh;
+    }
+
+    .section__img {
+        // min-width: 500px;
+        // max-width: 500px;
+        height: calc(100vh - 94px);
+        width: 100%;
+        object-fit: cover;
+        overflow: hidden;
+        img {
+            object-fit: cover;
+            overflow: hidden;
+            height: 100vh;
+            width: 100%;
+        }
+    }
+
+    .section__form {
+        min-width: 500px;
+
+        .auth__heading {
+            color: #172e60;
+            font-size: 18px;
+            font-weight: 500;
+            margin-bottom: 13.5px;
+        }
+
+        .create__account {
+            color: #2979ff;
+            text-decoration: underline;
+            font-size: 14px;
+            font-weight: 500;
+        }
+        .create__account__form {
+            margin: 53px auto 0;
+            .mat-form-field {
+                width: 100%;
+                display: block;
+            }
+
+            .accept__terms__conditions {
+                padding: 10px 0;
+                margin-top: 50px;
+                .click__me {
+                    display: flex;
+                    align-items: center;
+                    margin-left: 16px;
+                    height: 30px;
+                }
+            }
+        }
+
+        .forgot__password {
+            display: flex;
+            justify-content: flex-end;
+            align-items: end;
+            clear: both;
+            text-decoration: underline;
+            color: #2979ff;
+            margin: 1rem 0 3.5rem 0;
+        }
+
+       
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .auth__section {
+        flex-direction: row;
+        .section__img {
+            min-width: 500px;
+            max-width: 500px;
+        }
+    }
+}

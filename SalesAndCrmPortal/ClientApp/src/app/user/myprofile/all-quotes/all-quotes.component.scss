@@ -1,0 +1,44 @@
+.quote__card {
+    // width: 226px;
+    height: 290px;
+    background: #fff;
+    margin: 20px auto;
+    box-shadow: 2px 2px 18px #00000029;
+    border-radius: 16px;
+
+    .product__name {
+        font-weight: bold;
+        font-size: 18px;
+        background: #f8f8f8;
+        padding: 22px 0;
+    }
+    .benifits {
+        padding: 33px 0 16px 0;
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .additional__ofers {
+        font-size: 12px;
+        font-style: italic;
+        padding-bottom: 40px;
+    }
+
+    .valid__date{
+        color: #FF1744;
+        font-size: 12px;
+        font-style: italic;
+        padding-bottom: 16px;
+    }
+
+    .view__details{
+        background:#2979FF;
+        border-radius: 6px;
+        height: 34px;
+        width: 151px;
+        text-transform: uppercase;
+        color: #fff;
+        font-weight: 500
+
+    }
+}
+

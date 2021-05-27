@@ -1,0 +1,40 @@
+<div class="auth__section">
+
+    <div class="columns section__img">
+        <img src="https://source.unsplash.com/user/erondu/">
+    </div>
+    <div class="columns section__form">
+
+        <h4 class="auth__heading">Login</h4>
+        <p>Don't have an account? <span><a class="create__account" routerLink="/create_account">Create One Account</a></span></p>
+
+        <div class="text-center">
+            <form class="auth__form">
+
+                <mat-form-field>
+                    <mat-select placeholder="Role">
+                        <mat-option value="option">Option</mat-option>
+                    </mat-select>
+                </mat-form-field>
+
+                <mat-form-field>
+                    <input matInput placeholder="Email/Mobile Number">
+                </mat-form-field>
+
+                <mat-form-field>
+                    <input matInput placeholder="Password">
+                </mat-form-field>           
+
+
+                <span class="forgot__password"><a routerLink="/create_account">Forgot/Reset Password</a></span>
+
+                <div class="d-flex">
+                   
+                    <button class="cancel">Cancel</button>
+                    <a class="login" (click)="login()">Login</a>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+</div>

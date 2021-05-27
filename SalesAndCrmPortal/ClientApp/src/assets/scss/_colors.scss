@@ -1,0 +1,203 @@
+$primary-color:#172e60;//in
+$orange-color: #FF6C00;//in
+$grey-color: #F1F1F1;
+$light-grey: #f8f8f8; //in
+$light-grey2: #F6F6F6;
+$ash-color: #F5F5FB;
+$darkash-1: #D9D9E7;
+$darkash: #959595; //in
+$dark-grey: #9B9B9B;
+$white-color: #fff;//in
+$black-color: #000;//in
+$blue-color : #2979FF; //in
+$green-color: #050505;
+$red-color: #ff1744;//in
+$orange-color1: #FF9D00; //in
+$ligh-blue: #9695BC;
+$black-darkcolor: #131237;
+$darkash-2: #646464;
+$black-color2: $primary-color;
+$blue-black: #131237;
+
+$heading_color: #172E60;
+$shadow_color: #c4c8d066;
+
+.primary-color {
+    color: $primary-color
+}
+
+.primary-bg-color {
+    background: $primary-color;
+}
+
+.orange-color {
+    color: $orange-color1;
+}
+
+.orange-bg-color {
+    background: $orange-color;
+}
+
+.orange1-color {
+    color: $orange-color
+}
+
+.orange1-bg-color {
+    background: $orange-color1;
+}
+
+.grey-color {
+    color: $grey-color
+}
+
+.grey-bg-color {
+    background: $grey-color;
+}
+
+.darkgrey-color {
+    color: $dark-grey
+}
+
+.darkgrey-bg-color {
+    background: $dark-grey;
+}
+
+.white-color {
+    color: $white-color
+}
+
+.white-bg-color {
+    background: $white-color;
+}
+
+.black-color {
+    color: $black-color
+}
+
+.black-bg-color {
+    background: $black-color;
+}
+
+.blackdark-color {
+    color: $black-darkcolor;
+}
+
+.blackdark-bg-color {
+    background: $black-darkcolor;
+}
+
+.black2-color {
+    color: $black-color2
+}
+
+.black2-bg-color {
+    background: $black-color2;
+}
+
+.ash-color {
+    color: $ash-color
+}
+
+.ash-bg-color {
+    background: $ash-color;
+}
+
+.darkash-color {
+    color: $darkash;
+}
+
+.darkash-bg-color {
+    background: $darkash;
+}
+
+.darkash1-color {
+    color: $darkash-1;
+}
+
+.darkash1-bg-color {
+    background: $darkash-1;
+}
+
+.darkash2-color {
+    color: $darkash-2;
+}
+
+.darkash-bg2-color {
+    background: $darkash-2;
+}
+
+.light-grey-color {
+    color: $light-grey;
+}
+
+.light-grey-bg-color {
+    background: $light-grey;
+}
+
+.light-grey2-color {
+    color: $light-grey2;
+}
+
+.light-grey2-bg-color {
+    background: $light-grey2;
+}
+
+.light-blue-color {
+    color: $ligh-blue
+}
+
+.light-blue-bg-color {
+    background: $ligh-blue;
+}
+
+.darkash1-bg-color {
+    background: $darkash-1;
+}
+
+.light-grey-color {
+    color: $light-grey;
+}
+
+.light-grey-bg-color {
+    background: $light-grey;
+}
+
+.blue-color {
+    color: $blue-color
+}
+
+.blue-bg-color {
+    background: $blue-color;
+}
+
+.green-color {
+    color: $green-color !important
+}
+
+.green-bg-color {
+    background: $green-color;
+}
+
+.red-color {
+    color: $red-color !important
+}
+
+.red-bg-color {
+    background: $red-color;
+}
+
+.light-blue-color {
+    color: $ligh-blue
+}
+
+.light-blue-bg-color {
+    background: $ligh-blue;
+}
+
+.blue-black {
+    color: $blue-black
+}
+
+.blue-black-bg-color {
+    background: $blue-black;
+}

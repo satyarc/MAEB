@@ -1,0 +1,113 @@
+<div class="auth__section">
+
+    <div class="columns section__img">
+        <img src="https://source.unsplash.com/user/erondu/">
+    </div>
+    <div class="columns section__form">
+
+        <h4 class="auth__heading ml-2">Create Account</h4>
+        <p class="ml-2 f-14">Already have an account? <span><a class="create__account" routerLink="/login">Login Now</a></span></p>
+
+        <div class="text-center">
+            <form class="create__account__form">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-4 col-sm-4 col-md-2 col-lg-2">
+                            <mat-form-field>
+                                <mat-select placeholder="Title">
+                                    <mat-option value="option">Option</mat-option>
+                                </mat-select>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-8 col-sm-8 col-md-4 col-lg-4">
+                            <mat-form-field>
+                                <input matInput placeholder="First Name">
+                            </mat-form-field>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                            <mat-form-field>
+                                <input matInput placeholder="Last Name">
+                            </mat-form-field>
+                        </div>
+
+                        <div class="col-4 col-sm-4 col-md-2 col-lg-2">
+                            <mat-form-field>
+                                <mat-select placeholder="Select">
+                                    <mat-option value="option">Country</mat-option>
+                                </mat-select>
+                            </mat-form-field>
+                        </div>
+                        <div class="col-8 col-sm-8 col-md-4 col-lg-4">
+                            <mat-form-field>
+                                <input matInput placeholder="Mobile Number">
+                            </mat-form-field>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                            <mat-form-field>
+                                <input matInput [matDatepicker]="picker" placeholder="Date of Birth">
+                                <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
+                                <mat-datepicker #picker></mat-datepicker>
+                              </mat-form-field>
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                            <mat-form-field>
+                                <input matInput placeholder="Email">
+                            </mat-form-field>
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                            <mat-form-field>
+                                <input matInput placeholder="Address">
+                            </mat-form-field>
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                            <mat-form-field>
+                                <input matInput placeholder="Password">
+                            </mat-form-field>
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                            <mat-form-field>
+                                <input matInput placeholder="City/State">
+                            </mat-form-field>
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                            <mat-form-field>
+                                <input matInput placeholder="Confirm Password">
+                            </mat-form-field>
+                        </div>
+
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                            <mat-form-field>
+                                <input matInput placeholder="Country">
+                            </mat-form-field>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3">
+                            <mat-form-field>
+                                <input matInput placeholder="ZIP/Postal Code">
+                            </mat-form-field>
+                          
+                        </div>
+                       
+                    </div>
+                </div>
+
+            
+
+                <div class="d-flex f-14 accept__terms__conditions">
+                    <mat-checkbox class="mr-2 click__me"></mat-checkbox> I hereby acknowledge and accept the terms & conditions
+                </div>
+              
+                <div class="d-flex align-items-center justify-content-end">
+                   
+                    <button class="cancel">Cancel</button>
+                    <button class="login" (click)="createAccount()">Proceed</button>
+                </div>
+                
+            </form>
+        </div>
+    </div>
+</div>

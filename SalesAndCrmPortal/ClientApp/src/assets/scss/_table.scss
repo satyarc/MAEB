@@ -1,0 +1,178 @@
+.tbl__heading {
+    color: $primary-color;
+    font-weight: 500;
+    font-size: 18px;
+}
+.tbl__add_btn {
+    height: 36px;
+    width: 131px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $white-color;
+    background: $blue-color;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.Failed, .Inprogress, .Completed{
+    font-size: 12px;
+    font-weight: 500 !important;
+    position: relative;
+    
+}
+
+.Failed{
+    color: $red-color !important;
+}
+
+.Inprogress{
+    color: $orange-color1 !important;
+}
+.Completed{
+    color: #60D34C !important;
+}
+
+
+.lapsed, .Inforce, .Under__Writing__Progress, .Pending__Documents, .Terminated, .About__to__lapse {
+    font-size: 12px;
+    font-weight: 500 !important;
+    position: relative;
+    padding: 0 0 0 32px !important;
+    &::before {
+        content: "";
+        width: 11px;
+        height: 11px;
+        position: absolute;
+        left: 16px;
+        top: 40%;
+        border-radius: 4px;
+    }
+}
+
+.lapsed {
+    color: $red-color !important;
+
+    &::before {
+        background: $red-color;
+    }
+}
+
+.Inforce {
+    color: #60D34C !important;
+
+    &::before {
+        background: #60D34C;
+    }
+}
+.Under__Writing__Progress {
+    color: #8655D3 !important;
+
+    &::before {
+        background: #8655D3;
+    }
+}
+.Pending__Documents {
+    color: #568ED9 !important;
+
+    &::before {
+        background: #568ED9;
+    }
+}
+.Terminated {
+    color: $orange-color1 !important;
+
+    &::before {
+        background: $orange-color1;
+    }
+}
+.About__to__lapse {
+    color: $red-color !important;
+
+    &::before {
+        background: $red-color;
+    }
+}
+
+.table__profile__images {
+    width: 34px;
+    height: 34px;
+    overflow: hidden;
+    border-radius: 50%;
+    background: #eaf2ff;
+    margin-right: 8px;
+}
+.table-responsive {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: initial;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #eaf2ff;
+    border-radius: 10px;
+
+    td {
+        color: $black-color;
+    }
+}
+
+.table td {
+    height: 54px;
+    font-weight: 400;
+    color: #959595;
+    padding: 0 15px 0;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.table thead th {
+    background: #f8f8f8;
+    height: 40px;
+    font-weight: 400;
+    color: #959595;
+    padding: 0 15px 0;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.table thead th:first-child,
+.table td:first-child {
+    border-radius: 10px 0 0 10px;
+}
+
+.table thead th:last-child,
+.table td:last-child {
+    border-radius: 0 10px 10px 0;
+}
+
+
+.health__card__status{
+    background: #D8E6FF;
+    border-radius: 12px;
+
+    .table{
+        margin-bottom: 0px;
+        td {
+            height: 90px;
+        }
+    }
+
+    .table-hover tbody tr {
+        background-color: #D8E6FF;
+        border-radius: 10px;
+    
+        td {
+            color: $primary-color;
+            font-size: 16px;
+            font-weight: 500;
+        }
+    }
+
+    .table-hover tbody tr:hover {
+        background-color: #D8E6FF;
+        border-radius: 10px;
+    
+      
+    }
+}

@@ -1,0 +1,55 @@
+.about__us__section {
+    padding: 30px;
+}
+
+.about__images {
+    //  width: 705px;
+    min-height: 572px;
+    max-height: 572px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.about__mission__vision {
+    background: #f8f8f8;
+
+    .mission {
+        display: flex;
+        flex-direction: column;
+        .side__image {
+            min-width: 200px;
+            max-width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: #fff;
+            margin: 36px auto 10px;
+        }
+
+        .app__description__mision {
+            margin-top: 66px;
+            width: 100%;
+            background: #f8f8f8;
+        }
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .about__us__section {
+        flex: 1;
+        width: 100%;
+        padding: 110px 83px 0 66px;
+    }
+
+    .about__mission__vision {
+        background: #f8f8f8;
+        padding: 123px 150px;
+        .mission {
+            flex-direction: row;
+            .side__image{
+                text-align: center;
+                margin: 36px 62px 10px 0px;
+            }
+        }
+    }
+}

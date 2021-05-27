@@ -1,0 +1,26 @@
+.contact__cards {
+  margin-top: 40px;
+    border-radius: 16px;
+    padding: 35px 35px;
+    color:#959595;
+    font-style: 14px;
+    width: 210px;
+    overflow: hidden;
+    box-shadow: 2px 2px 18px #00000000;
+    text-align: center;
+
+    &:hover{
+        box-shadow: 2px 2px 18px #00000029;
+        color:#000000;
+        font-weight: 500;
+        cursor: pointer;
+    }
+    
+    .image__box{
+        min-height: 86px;
+    }
+
+    p{
+
+    }
+}

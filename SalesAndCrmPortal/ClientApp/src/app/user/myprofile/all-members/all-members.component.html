@@ -1,0 +1,38 @@
+<div class="d-flex  justify-content-between">
+    <span class="tbl__heading">All Memberships</span>
+    <button class="tbl__add_btn">GET QUOTE</button>
+</div>
+<div class="table-responsive">
+    <table class="table table-borderless table-hover">
+        <thead>
+          <tr>
+            <th>Membership ID</th>
+            <th>LastName</th>
+            <th>FirstName</th>
+            <th>AgentId</th>
+            <th>Date of Birth</th>
+            <th>MembershipDuration</th>
+            <th>City</th>
+            <th>Country</th>
+            <th>Zip</th>
+            <th>Address</th>
+            <th>Phone</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let customer of customers">
+            <td>{{ customer.CustomerId }}</td>
+            <td>{{ customer.CustomerLastName }}</td>
+            <td>{{ customer.CustomerFirstName }}</td>
+            <td>{{ customer.AgentId }}</td>
+            <td>{{ customer.DateOfBirth }}</td>
+            <td>{{ customer.MembershipDuration }}</td>
+            <td>{{ customer.CityCode }}</td>
+            <td>{{ customer.CountryCode }}</td>
+            <td>{{ customer.ZipCode }}</td>
+            <td>{{ customer.Address }}</td>
+            <td>{{ customer.Phone }}</td>
+          </tr>
+        </tbody>
+    </table>
+</div>
